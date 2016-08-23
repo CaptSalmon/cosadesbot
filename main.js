@@ -7,6 +7,10 @@ global.userNameHack = function(id) {};
 
 logger = require('winston');
 
+var cycle_stop = false;
+var daemon = false;
+var timer;
+
 logger.setLevels({
   debug: 0,
   info: 1,
