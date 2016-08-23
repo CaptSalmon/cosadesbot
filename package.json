@@ -1,14 +1,14 @@
 {
-  "name": "imouto-ai",
-  "description": "Imouto bot for Telegram",
+  "name": "cosades-ai",
+  "description": "Cosadesbot for Telegram",
   "version": "1.0.0",
   "author": {
-    "name": "alexbft",
-    "email": "alexbft@github.com"
+    "name": "captsalmon",
+    "email": "cap.salmon@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexbft/imouto.git"
+    "url": "https://github.com/CaptSalmon/cosadesbot.git"
   },
   "dependencies": {
     "cloudscraper": "^1.2.2",
@@ -21,6 +21,9 @@
     "request": "2.x.x",
     "tmp": "0.0.x",
     "winston": "1.0.x",
+    "nodebb-plugin-dbsearch": "0.0.10",
+    "redis": "~0.10.1",
+    "connect-redis": "~2.0.0",
     "xmldoc": "^0.5.1"
   },
   "main": "./main",
@@ -29,7 +32,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "node main.js",
+    "start": "node main.js --no-daemon",
     "build": "coffee -c -b .",
     "build:watch": "coffee -c -b -w ."
   },
