@@ -32,7 +32,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "node main.js --no-daemon",
+    "start": "node procfile.js",
     "build": "coffee -c -b .",
     "build:watch": "coffee -c -b -w ."
   },
