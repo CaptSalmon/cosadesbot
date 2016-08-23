@@ -1,0 +1,32 @@
+# Telegram bot API token. Ask @botfather for one.
+token = 249401670:AAHqyrXcmuSH47I4UYFHgArDWf5T9QXLxzI
+
+# Google API key (for youtube search)
+googlekey = AIzaSyDae_rT89sO9I9OQlA-dM6QwnJU-3gq94w
+
+# Google CX id (image search)
+googlecx = 014167841814848504938:xjjlds8ujy8
+
+# User agent (when we are impersonating a legitimate browser)
+useragent = Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+
+# Admin list (comma-separated). You want to include your id here. Type !id to check your id.
+sudo = 
+
+# Banned ids (comma-separated). Chat or user ids that are banned from issuing any commands to the bot.
+banned =
+
+# Moderator list for quotes plugin.
+quotes_sudo = 
+
+# Path to ffmpeg for voice plugin.
+ffmpeg = /path/to/ffmpeg
+
+# openexchangerate api key
+exchangekey = 43bb631dce4442a58781777a2a60d371
+
+# ivona keys (access:secret) - voice synth
+ivona = ???
+
+# openweathermap api key
+weathermap = acd5c22c8796a113c2905f7922df7ed0
